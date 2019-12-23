@@ -1,0 +1,28 @@
+#pragma region  LELE的RPG难题 
+//# define LL long long  
+//LL a[51];
+//void ShowColor()
+//{ 
+//	int i;
+//	a[1]=3;
+//	a[2]=6;
+//	a[3]=6;
+//	for(i=4;i<51;i++)
+//	{
+//		a[i]=a[i-1]+2*a[i-2];
+//	}
+//}
+//int main()
+//{
+//	int n;
+//	 ShowColor();
+//	while(cin>>n)
+//	{
+//		cout <<a[n]<<endl;
+//
+//	}
+//	
+//	return 0;
+//}
+
+#pragma endregion 
