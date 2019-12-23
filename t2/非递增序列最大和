@@ -1,0 +1,33 @@
+#pragma region 非递增序列最大和
+//int MaxSum(int *a,int n)
+//{
+// int i,j,maxsum;
+// for(i=0;i<n;i++)
+//  b[i]=a[i];
+// maxsum=b[0];
+// for(i=1;i<n;i++)
+//  for(j=0;j<i;j++)
+//  {
+//   if(a[i]>a[j]&&b[i]<b[j]+a[i])
+//    b[i]=b[j]+a[i];
+//   if(maxsum<b[i])
+//    maxsum=b[i];
+//  }
+// return maxsum;
+//}
+//
+//int main()
+//{
+// int n,idx;
+// 
+// while(cin>>n)
+// {
+//	 if(n<=0)break;
+//	  for(idx=0;idx<n;idx++)
+//	   cin>>a[idx];
+//	  cout<<MaxSum(a,n)<<endl;
+//  
+// }
+// return 0;
+//}
+#pragma endregion 
