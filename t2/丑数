@@ -1,0 +1,57 @@
+#pragma region 丑数
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//int n[5843];
+//int Min(int a,int b,int c,int d)
+// {
+//    int t;
+//    t = a<b?a:b;
+//	t = t<c?t:c;
+//    t = t<d?t:d;
+//     return t;
+// }
+//void inti()
+//{
+//		n[1] = 1;
+//     int a1=1,a2=1,a3=1,a4=1;
+//     int e1,e2,e3,e4;
+//     for(int i=2;i<5843;i++){
+//         e1 = n[a1]*2;
+//		 e2 = n[a2]*3;
+//         e3 = n[a3]*5;
+//         e4 = n[a4]*7;
+//        n[i] = Min(e1,e2,e3,e4);
+//         if(n[i]==e1)
+//            a1++;
+//         if(n[i]==e2)
+//             a2++;
+//         if(n[i]==e3)
+//            a3++;
+//        if(n[i]==e4)
+//			a4++;
+//     }
+//}
+//int main(){
+//
+//	int i;	
+//	inti();
+//	while(cin>>i)
+//	{
+//		if(i<=0)break;
+//		  if(i%100==11 || i%100==12 || i%100==13)
+//           cout<<"The "<<i<<"th humble number is "<<n[i]<<'.'<<endl;
+//       else {
+//            int t = i%10;
+//            switch(t)
+//				{
+//					case 0:cout<<"The "<<i<<"th humble number is "<<n[i]<<'.'<<endl;break;
+//				    case 1:cout<<"The "<<i<<"st humble number is "<<n[i]<<'.'<<endl;break;
+//					case 2:cout<<"The "<<i<<"nd humble number is "<<n[i]<<'.'<<endl;break;
+//					case 3:cout<<"The "<<i<<"rd humble number is "<<n[i]<<'.'<<endl;break;
+//					default:cout<<"The "<<i<<"th humble number is "<<n[i]<<'.'<<endl;break;
+//				}
+//			}
+//
+//	}
+//}
