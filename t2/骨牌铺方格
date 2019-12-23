@@ -1,0 +1,27 @@
+#pragma region  骨牌铺方格 
+//# define LL long long  
+//LL a[51];
+//void ShowStruct()
+//{ 
+//	int i;
+//	a[1]=1;
+//	a[2]=2;
+//	a[3]=3;
+//	for(i=4;i<51;i++)
+//	{
+//		a[i]=a[i-1]+a[i-2];
+//	}
+//}
+//int main()
+//{
+//	int n;
+//	 ShowStruct();
+//	while(cin>>n)
+//	{
+//		cout <<a[n]<<endl;
+//
+//	}
+//	
+//	return 0;
+//}
+ #pragma endregion
