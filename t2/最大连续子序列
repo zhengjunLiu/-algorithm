@@ -1,0 +1,82 @@
+#pragma region 最大连续子序列 
+//给定K个整数的序列{ N1, N2, ..., NK }，其任意连续子序列可表示为{ Ni, Ni+1, ...,
+//Nj }，其中 1 <= i <= j <= K。最大连续子序列是所有连续子序列中元素和最大的一个，
+//例如给定序列{ -2, 11, -4, 13, -5, -2 }，其最大连续子序列为{ 11, -4, 13 }，最大和
+//为20。
+//在今年的数据结构考卷中，要求编写程序得到最大和，现在增加一个要求，即还需要输出该
+//子序列的第一个和最后一个元素。
+//int Startnum[10010];
+//int Endnum[10010];
+//int MaxNumb(LL a[],int n)
+//{
+//	MaxSum[0]=a[0];
+//	Startnum[0]=0;
+//	Endnum[0]=0;
+//	int i,j;
+//	LL max=0;
+//	for(i=1;i<n;i++)
+//	{
+//		if((MaxSum[i-1]+a[i])>=a[i])
+//		{
+//			MaxSum[i]=MaxSum[i-1]+a[i];
+//			Startnum[i]=Startnum[i-1];
+//			Endnum[i]=i;
+//
+//		}
+//		else
+//		{
+//          MaxSum[i]=a[i];
+//
+//		  Startnum[i]=i;
+//		  Endnum[i]=i;
+//		}
+//	}
+//	int t=0;
+//	for(j=0;j<n;j++)
+//	{
+//		if(max<MaxSum[j])
+//		{
+//			max=MaxSum[j];
+//			t=j;
+//			
+//		}
+//		else if(max==MaxSum[j])
+//		{
+//			if(MaxSum[j]==0)
+//				{
+//					t=j;
+//			    }
+//
+//		}
+//
+//	}
+//	return t;
+//}
+//int main()
+//{
+//	int n;
+//	int b;
+//	int k=0;
+//	int p=0;
+//	LL c[10010];
+//	while(cin>>n)
+//	{
+//		if(n==0)break;
+//		for(k=0;k<n;k++)
+//		{
+//			cin>>c[k];
+//		}
+//      b=MaxNumb(c,n);
+//	  if(MaxSum[b]<0)
+//	  {
+//		  cout<<"0"<<" "<<c[0]<<" "<<c[n-1]<<endl;
+//	  }
+//	  else
+//	  {
+//		  cout<<MaxSum[b]<<" "<<c[Startnum[b]]<<" "<<c[Endnum[b]]<<endl;
+//	  }
+//	
+//	}
+//	return 0;
+//}
+#pragma endregion 
